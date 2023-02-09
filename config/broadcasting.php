@@ -46,6 +46,11 @@ return [
             'key' => env('ABLY_KEY'),
         ],
 
+        'larasocket' => [
+            'driver' => 'larasocket',
+            'token' => env('LARASOCKET_TOKEN'),
+        ],
+
         'redis' => [
             'driver' => 'redis',
             'connection' => 'default',
