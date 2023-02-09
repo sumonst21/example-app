@@ -41,14 +41,14 @@ return [
             ],
         ],
 
-        'ably' => [
-            'driver' => 'ably',
-            'key' => env('ABLY_KEY'),
-        ],
-
         'larasocket' => [
             'driver' => 'larasocket',
             'token' => env('LARASOCKET_TOKEN'),
+        ],
+
+        'ably' => [
+            'driver' => 'ably',
+            'key' => env('ABLY_KEY'),
         ],
 
         'redis' => [
